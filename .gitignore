@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# But not directories (needed to traverse the tree)
+!*/
+
+# Allow specific file types
+!*.py
+!*.typ
+!*.md
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allow licence file
+!LICENSE
+
+# Personal development notes — keep local only
+src/TODO.md
+CLAUDE.md
